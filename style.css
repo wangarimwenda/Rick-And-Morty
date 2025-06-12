@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    font-size: 5rem;
+    padding: 10px 15px;
+    width: 2000px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+
+button {
+    font-size: 4rem;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#pokemanSprite {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    display: block; /* display it as block when shown */
+}
